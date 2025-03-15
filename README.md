@@ -6,7 +6,7 @@
 
 Interactions server is a web sockets server that allows to connect and make interactions between the X-Ray Explorer VR application with its spectator web page
 
-## Pre-requesites
+## Prerequisites
 
 * Node.js v22.12.0 or newer
 
