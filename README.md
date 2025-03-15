@@ -1,8 +1,8 @@
 # 🚨 Interactions server - X-Ray Explorer VR
 
-<div style="text-align: right; margin-bottom: 1rem;">
-  <div style="display: inline; font-weight: bold;">Developed by:</div> <a href="https://github.com/AlexAzumi">Alejandro Suárez 🪐</a>
-</div>
+<p align="right">
+  Developed by: <a href="https://github.com/AlexAzumi">Alejandro Suárez 🪐</a>
+</p>
 
 Interactions server is a web sockets server that allows to connect and make interactions between the X-Ray Explorer VR application with its spectator web page
 
