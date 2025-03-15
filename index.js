@@ -1,7 +1,7 @@
 const { WebSocketServer, WebSocket } = require('ws');
 require('colors');
 
-const wss = new WebSocketServer({ port: 8080 });
+const wss = new WebSocketServer({ host: '0.0.0.0', port: 8080 });
 
 // Save required sockets
 let frontSocket, oculusSocket;
@@ -68,6 +68,6 @@ wss.on('connection', function connection(ws) {
  */
 function sendToFrontend(data) {
   if (frontSocket && frontSocket.readyState === WebSocket.OPEN) {
-    frontSocket.send(data);
+    frontSocket.send(data, { binary: false });
   }
 }
