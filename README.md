@@ -15,7 +15,7 @@ Interactions server is a web sockets server that allows to connect and make inte
 1. Clone the repository
 
     ```console
-    git clone https://github.com/X-Ray-Explorer-VR/x-ray-explorer-interactions
+    git clone https://github.com/X-Ray-Explorer-VR/interactions-server.git
     ```
 
 2. Install the required dependecies
