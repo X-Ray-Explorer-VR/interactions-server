@@ -6,11 +6,21 @@
 
 Interactions server is a web sockets server that allows to connect and make interactions between the X-Ray Explorer VR application with its spectator web page
 
-## Prerequisites
+## Running using Docker
+
+Execute the next command in a terminal
+
+```console
+docker run -p 8080:8080 ghcr.io/x-ray-explorer-vr/interactions-server:1.0
+```
+
+## Running barebones
+
+### 1. Prerequisites
 
 * Node.js v22.12.0 or newer
 
-## How to run
+### 2. Steps
 
 1. Clone the repository
 
