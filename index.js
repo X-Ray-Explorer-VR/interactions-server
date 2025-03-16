@@ -1,7 +1,12 @@
 const { WebSocketServer, WebSocket } = require('ws');
 require('colors');
 
-const wss = new WebSocketServer({ host: '0.0.0.0', port: 8080 });
+const SERVER_IP = process.env.IP || '0.0.0.0';
+const SERVER_PORT = process.env.PORT || 8080;
+
+const wss = new WebSocketServer({ host: SERVER_IP, port: SERVER_PORT });
+
+console.log(`Server ${SERVER_IP} running on port ${SERVER_PORT}`.bgCyan.black);
 
 // Save required sockets
 let frontSocket, oculusSocket;
