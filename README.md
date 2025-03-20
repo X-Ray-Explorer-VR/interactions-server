@@ -11,7 +11,7 @@ Interactions server is a web sockets server that allows to connect and make inte
 Execute the next command in a terminal
 
 ```console
-docker run -p 8080:8080 ghcr.io/x-ray-explorer-vr/interactions-server:1.0
+docker run -p 8080:8080 ghcr.io/x-ray-explorer-vr/interactions-server:latest
 ```
 
 ## Running barebones
